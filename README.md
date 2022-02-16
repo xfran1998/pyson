@@ -23,7 +23,27 @@ Anyone is free to help in this funny project.
 <br>
 
 ## Start 
-Where bot start running
+Where bot start running, all the code should be inside
+
+```json
+{
+    "start": {
+        "var": {
+            "x": 1,
+            "y": 0
+        },
+        "loop": {
+            "times": 10,
+            "start": [
+                {
+                    "operation": "y = y + x"
+                }
+            ]
+        },
+        "print": "y = ${y}"
+    }
+}
+```
 
 <br>
 <hr>
@@ -112,26 +132,7 @@ example \<vision type\>:
 ## How start the program:
 main.json need to be in the same folder as pyson.py
 
-Example program:
-```json
-{
-    "start": {
-        "var": {
-            "x": 1,
-            "y": 0
-        },
-        "loop": {
-            "times": 10,
-            "start": [
-                {
-                    "operation": "y = y + x"
-                }
-            ]
-        },
-        "print": "y = ${y}"
-    }
-}
-```
+(Example program)[#start]
 <br>
 
 call pyson program
