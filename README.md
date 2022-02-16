@@ -5,8 +5,6 @@ This bot actions are preprogramed an called from the pyson program though pyson.
 
 This is meant to be used for people don't want don't how to program a multithread bot using python or just an easy and fast way to do it.
 
-Anyone is free to help in this funny project.
-
 ## JSON Legend
 - "start" : {}
 - "vision": { "type" : \<vision type\>, "crop": true }
