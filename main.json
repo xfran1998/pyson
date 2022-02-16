@@ -9,7 +9,10 @@
             "start": [
                 {
                     "operation": "y = y + x"
-                }
+                },
+                {
+                    "operation": "x = x + 1"
+                }   
             ]
         },
         "print": "y = ${y}"

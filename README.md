@@ -51,19 +51,13 @@ Where bot start running, all the code should be inside
 Will create a new vision object with defined vision type and crop space
 
 ### vision types:
-what we want to search in img
-
-- "orbit" : Ship in orbit
-- "planet" : Ship arrive to planet
-- "interp" : Look for interp in the panel
-- "reco" : Look for reco in the panel
-- "energy" : How many energy player have
-- ...
+What we want to search in img
+(Future implementation)
 
 ### crop:
 If crop is setted to true the program will search in crop_areas.json to get the area of the \<vision type\> with the same string
 
-Crop coords from original we want out vision works on, smaller cropped img is faster will be the match template
+Crop coords from original we want out vision works on, smaller cropped img is faster will be the match template.
 
 - [x1, y1] : top-left corner
 - [x2, y2] : bottom-rigth corner
