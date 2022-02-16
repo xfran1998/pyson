@@ -1,0 +1,17 @@
+{
+    "start": {
+        "var": {
+            "x": 1,
+            "y": 0
+        },
+        "loop": {
+            "times": 10,
+            "start": [
+                {
+                    "operation": "y =y+x-"
+                }
+            ]
+        },
+        "print": "y = ${y}"
+    }
+}
