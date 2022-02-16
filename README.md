@@ -1,4 +1,11 @@
-# JSON Legend
+# Pyson
+This is a funny project for creating a descriptive way to program a python bot using json. This way I can use it to easy make a visualy development web aplication to create a bot.
+
+This bot actions are preprogramed an called from the pyson program though pyson.py at least for now.
+
+Anyone is free to help in this funny project.
+
+## JSON Legend
 - "start" : {}
 - "vision": { "type" : \<vision type\>, "crop": true }
 - "delete" : "\<vision type\>"
