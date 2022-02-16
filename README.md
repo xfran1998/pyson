@@ -5,7 +5,7 @@ This bot actions are preprogramed an called from the pyson program though pyson.
 
 This is meant to be used for people don't want don't how to program a multithread bot using python or just an easy and fast way to do it.
 
-![Example Program](https://imgur.com/a/Za06aiv 'Example Program')
+![Example Program](https://i.imgur.com/zZKJFvf.png 'Example Program1')
 
 ## JSON Legend
 - "start" : {}
