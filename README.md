@@ -3,6 +3,8 @@ This is a funny project for creating a descriptive way to program a python bot u
 
 This bot actions are preprogramed an called from the pyson program though pyson.py at least for now.
 
+This is meant to be used for people don't want don't how to program a multithread bot using python or just an easy and fast way to do it.
+
 Anyone is free to help in this funny project.
 
 ## JSON Legend
@@ -91,3 +93,4 @@ example \<vision type\>:
 ```
 
 ## How start the program:
+main.json need to be in the same folder as pyson.py
