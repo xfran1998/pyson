@@ -13,15 +13,21 @@ Anyone is free to help in this funny project.
 - "delete" : "\<vision type\>"
 - "delay": x
 - "loop" : {"time" : x, "start": [{}], "condition": true}
+- "condition" : ...
 - "var" : { "x": 2, "y": 5.19 }
 - "print" : "some vars: ${x}, ${y}"
+- "operation" : "x = y + 1"
 
+<br>
 <hr>
+<br>
 
 ## Start 
 Where bot start running
 
+<br>
 <hr>
+<br>
 
 ## Vision
 Will create a new vision object with defined vision type and crop space
@@ -45,12 +51,16 @@ Crop coords from original we want out vision works on, smaller cropped img is fa
 - [x2, y2] : bottom-rigth corner
 - []: no need to crop
 
+<br>
 <hr>
+<br>
 
 ## Delete
 Will delete vision type created before
 
+<br>
 <hr>
+<br>
 
 ## Loop
 Will loop all inside start var x times
@@ -59,13 +69,17 @@ Will loop all inside start var x times
 - start: all the operations will do each iteration
 - condition: condition have to met at the end of each iteration to continue looping
 
-### condition:
+<br>
+<hr>
+<br>
+
+## condition:
 
 conditions:
 - "condition" : true -> always will iterate
 - "condition" : {"check": "iqual", { "var1" : \<var type\>: , "var2" : \<var type\> } }
 
-#### check
+### check
 var types:
 - int, float, string, array, \<vision type\>
 
@@ -91,6 +105,73 @@ example \<vision type\>:
     }
 
 ```
+<br>
+<hr>
+<br>
 
 ## How start the program:
 main.json need to be in the same folder as pyson.py
+
+Example program:
+```json
+{
+    "start": {
+        "var": {
+            "x": 1,
+            "y": 0
+        },
+        "loop": {
+            "times": 10,
+            "start": [
+                {
+                    "operation": "y = y + x"
+                }
+            ]
+        },
+        "print": "y = ${y}"
+    }
+}
+```
+<br>
+
+call pyson program
+```
+python pyson.py
+```
+<br>
+<hr>
+<br>
+
+## Operation
+Will complete a basic operation using variables already declared
+
+Valid operations:
+- "+"
+- "-"
+- "*"
+- "/"
+- "^"
+
+<br>
+<hr>
+<br>
+
+## Error handling
+For now there's a basic error handling in the features implemented
+
+<br>
+<hr>
+<br>
+
+## Features implemented
+
+- Variables
+- Loops
+- Print
+- Operation
+
+TODO:
+- Delay
+- Conditions
+- Functions
+
