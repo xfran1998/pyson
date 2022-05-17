@@ -1,5 +1,5 @@
 # Pyson
-This is a funny project for creating a descriptive way to program only using json. 
+This is a funny project for creating a descriptive way to program only using Json. 
 
 DISCLAIMER:
 This is a side project complementing a visual detection bot made in python. This bot is made using classes implementing behaviors, this behaviors can be exuted in a descritive way using this "languaje".
