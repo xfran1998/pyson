@@ -1,9 +1,12 @@
 # Pyson
-This is a funny project for creating a descriptive way to program a python bot using json. This way I can use it to easy make a visualy development web aplication to create a bot.
+This is a funny project for creating a descriptive way to program only using json. 
 
-This bot actions are preprogramed an called from the pyson program though pyson.py at least for now.
+DISCLAIMER:
+This is a side project complementing a visual detection bot made in python. This bot is made using classes implementing behaviors, this behaviors can be exuted in a descritive way using this "languaje".
 
-This is meant to be used for people don't want don't how to program a multithread bot using python or just an easy and fast way to do it.
+Actions are preprogramed an called from the pyson program though pyson.py at least for now.
+
+This is meant to be used for people don't want don't how to program a multithread bot using python or just an easy and fast way to do it making use of it and the bot library.
 
 ![Example Program](https://i.imgur.com/a54v2KQ.png 'Example Program1')
 
